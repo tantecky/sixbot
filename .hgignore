@@ -1,0 +1,8 @@
+syntax: regexp
+\.cfg$
+\.user$
+\.suo$
+\.xml$
+\.log$
+/obj/
+vshost.\exe
