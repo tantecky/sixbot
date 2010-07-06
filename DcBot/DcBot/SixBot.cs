@@ -89,7 +89,7 @@ namespace DcBot
             m_Hub = new Hub(nastaveni, this);
             m_Hub.Share = m_Share;
             m_Hub.Me.TagInfo.Version = "SixBot";
-            m_Hub.Me.Description = "Powered by C#";
+            m_Hub.Me.Description = "http://sixbot.googlecode.com";
             m_Hub.Me.Mode = ConnectionTypes.Direct;
 
             m_Hub.ConnectionStatusChange += new FmdcEventHandler(m_Hub_ConnectionStatusChange);
