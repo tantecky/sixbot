@@ -26,7 +26,7 @@ namespace DcBot
         {
             TimeSpan t = DateTime.Now - m_Start;
 
-            bot.PrivateZprava(odesilatel, "Informace o programu:\nVerze: " + Program.Verze.ToString() + string.Format("\nUptime: {0} dnù {1} hodin", t.Days, t.Hours) + "\n\nVyužívá projekty:\n" + "FlowLib: http://code.google.com/p/flowlib\n" + "Gapi.NET: http://www.codeplex.com/GAPIdotNET");
+            bot.PrivateZprava(odesilatel, "Informace o programu:\nVerze: " + Program.Verze.ToString() + "\nWeb projektu: http://sixbot.googlecode.com" + string.Format("\nUptime: {0} dnù {1} hodin", t.Days, t.Hours) + "\n\nVyužívá projekty:\n" + "FlowLib: http://code.google.com/p/flowlib\n" + "Gapi.NET: http://www.codeplex.com/GAPIdotNET");
 
         }
     }
