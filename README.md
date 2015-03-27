@@ -2,7 +2,7 @@
 
 Sixbot is NMDC bot which I developed for my college internal network. It is entirely written in C# and running on .NET 2.0.
 
-Main features:
+## Main features:
 
 sending group messages
 basic web searching
